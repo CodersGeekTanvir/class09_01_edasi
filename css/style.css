@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ul,li{
+    list-style:none;
+}
+img{
+    max-width: 100%;
+}
+/* */
+body{
+    font-family: 'Nunito', sans-serif;
+}
+/* Header Starts*/
+
+nav .navbar-brand img{
+    width: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(0, 0, 0);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 18px;
+}
+/* Header Ends*/
+/*Banner Starts */
+.banner{
+    background-image: url(../images/banner.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+.banner_overlay{
+    background-color: #ffffff7d;
+    width: 608px;
+    margin: auto;
+}
+.banner_content{
+    padding: 80px 40px;
+}
+
+.banner_content h1{
+
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.banner_content strong{
+     display: block;
+    padding-top: 25px;
+      padding-bottom: 20px;
+}
+.banner_content h2{
+    padding-bottom: 60px;
+}
+.banner_button{
+   
+  
+}
+
+.banner_button a{
+    padding: 11px 10px;
+    background-color: #6c6464;
+    display: inline-block;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    color: #fff;
+    text-decoration: none;
+}
+.banner_button a:hover{
+
+    background-color: #000;
+}
+/*Banner Ends */
+
+/* About Starts */
+.about{
+    padding: 38px 0;
+}
+.about hr{
+    color: #333;
+}
+/* About Ends */
+
+/*Item Starts */
+.item_section_1{
+ padding: 0 0 40px 0;
+}
+.item_box{
+    padding: 30px;
+}
+.item_box h3{
+
+    font-weight: 300;
+    font-size: 19px;
+    padding: 20px 0 4px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.item_box hr{
+    background-color: red;
+    width: 80px;
+    margin: auto;
+    opacity: 1;
+}
+.item_box p{
+    color: #333;
+    padding: 15px;
+}
+/*Item Ends */
+
+/* Feature Starts */
+.feature_section{
+    padding:0 0 40px 0;;
+}
+.feature_image{
+    background-image: url(../images/feature.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.features{
+
+    padding: 35px 0 35px 50px;
+}
+.features ul li{
+    color: #333;
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+.features ul li i{
+    color: #000;
+    padding-right: 16px;
+}
+/* Feature Ends */
+
+/* Advantages Starts */
+
+.advantages{
+    padding: 30px 0 50px 0;
+}
+.advantages hr{
+    opacity: 1;
+}
+.advantages p{
+    
+    padding: 30px 0 20px 0;
+    font-size: 16px;
+    color: #333;
+}
+/* Advantages Ends */
+
+/* Footer Starts */
+
+footer{
+    padding-bottom: 30px;
+}
+footer hr{
+    opacity: 1;
+}
+footer h3{
+
+    font-weight: 600;
+    font-size: 32px;
+    padding: 10px 0;
+}
+footer p{
+
+    font-size: 18px;
+}
+footer .footer_button{
+
+ 
+}
+
+footer .footer_button a{
+  
+    background-color: #6c6464;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+footer .footer_button a:hover{
+    
+    background-color: #000;
+}
+footer span{
+    
+    display: block;
+    padding-top: 10px;
+}
+/* Footer Ends */
