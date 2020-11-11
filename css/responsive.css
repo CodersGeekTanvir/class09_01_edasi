@@ -1,0 +1,134 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .feature_image{
+        display: none;
+    }
+    .features {
+        background-image: url(../images/feature.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: #ffffffb0;
+    }
+    
+    .banner_content h1 {
+        font-size: 27px;
+        
+    }
+    .banner_content strong {
+        font-size: 14px;
+    }
+    .banner_content h2 {
+        padding-bottom: 35px;
+        font-size: 23px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+    .item_box h3 {
+       
+        font-size: 18px;
+        padding: 20px 0 0px 0;
+    }
+    .item_box p {
+        padding: 10px 0 10px 0;
+        font-size: 15px;
+        
+    }
+ .advantages p {
+        font-size: 13px;
+    
+    }
+    footer h3 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    footer p {
+    font-size: 15px;
+    }
+    footer .footer_button a {
+        font-size: 12px;
+    }
+    footer span {
+        font-size: 13px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .banner_content h1 {
+        font-size: 28px;
+        
+    }
+    .banner_content strong {
+        font-size: 15px;
+    }
+    .banner_content h2 {
+        padding-bottom: 35px;
+        font-size: 24px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+    .item_box h3 {
+       
+        font-size: 17px;
+        padding: 20px 0 0px 0;
+    }
+    .item_box p {
+        padding: 10px 0 10px 0;
+        font-size: 14px;
+        
+    }
+    .features {
+        padding: 35px 5px 35px 3px;
+    }
+    .features ul li {
+        font-size: 16px;
+        line-height: 2;
+    }
+    .advantages p {
+        font-size: 14px;
+    
+    }
+    footer h3 {
+        font-weight: 700;
+        font-size: 30px;
+        
+    }
+    
+    footer p {
+    font-size: 17px;
+    }
+    footer .footer_button a {
+        font-size: 14px;
+    }
+    footer span {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .features {
+        padding: 35px 5px 35px 20px;
+    }
+    .features ul li {
+        font-size: 18px;
+        
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }

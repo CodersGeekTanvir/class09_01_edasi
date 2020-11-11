@@ -36,13 +36,12 @@ nav .navbar-brand img{
     background-image: url(../images/banner.png);
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     padding: 100px 0;
 }
 .banner_overlay{
     background-color: #ffffff7d;
-    width: 608px;
-    margin: auto;
 }
 .banner_content{
     padding: 80px 40px;
@@ -59,8 +58,9 @@ nav .navbar-brand img{
     padding-top: 25px;
       padding-bottom: 20px;
 }
-.banner_content h2{
+.banner_content h2 {
     padding-bottom: 60px;
+    font-weight: 800;
 }
 .banner_button{
    
@@ -88,6 +88,9 @@ nav .navbar-brand img{
 }
 .about hr{
     color: #333;
+}
+.about p{
+    
 }
 /* About Ends */
 
@@ -126,6 +129,7 @@ nav .navbar-brand img{
     background-image: url(../images/feature.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .features{
 
